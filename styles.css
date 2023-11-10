@@ -50,3 +50,39 @@ h2 {
 .last {
   border-bottom: 0.5px solid var(--Light-Grayish-Blue);
 }
+
+/* btn */
+.btn {
+  cursor: pointer;
+  font-size: 1.3rem;
+  letter-spacing: 1.39px;
+  margin: 2rem;
+  padding: 1rem 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btn--primary {
+  background-image: var(--Background-Gradient);
+  color: #fff;
+}
+
+.btn--secondary {
+  background: #fff;
+  color: #6d72de;
+}
+
+.btn--primary:hover {
+  background: transparent;
+  color: #6d72de;
+  border: 1px solid #6d72de;
+}
+
+.btn--secondary:hover {
+  background-image: var(--Background-Gradient);
+  color: #fff;
+  border: 1px solid #fff;
+}
