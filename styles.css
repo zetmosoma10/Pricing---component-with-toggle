@@ -97,10 +97,10 @@ h2 {
   width: 56px;
   height: 32px;
   position: relative;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
-.btn__toggle {
+.toggle__badge {
   position: absolute;
   transform: translate(0, -50%);
   background-color: #fff;
