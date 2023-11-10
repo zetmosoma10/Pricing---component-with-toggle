@@ -1,0 +1,52 @@
+:root {
+  /* Primary */
+  --Background-Gradient: linear-gradient(
+    to right,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+
+  /*  Neutral */
+  --Very-Light-Grayish-Blue: hsl(240, 78%, 98%);
+  --Light-Grayish-Blue: hsl(234, 14%, 74%);
+  --Grayish-Blue: hsl(233, 13%, 49%);
+  --Dark-Grayish-Blue: hsl(232, 13%, 33%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--Grayish-Blue);
+  background-color: var(--Very-Light-Grayish-Blue);
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+.list {
+  font-size: 1.5rem;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  padding: 0.7rem 0 0.7rem;
+  line-height: 28px;
+  border-top: 0.5px solid var(--Light-Grayish-Blue);
+}
+
+.last {
+  border-bottom: 0.5px solid var(--Light-Grayish-Blue);
+}
